@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5737471522141645638}
   m_Layer: 0
   m_Name: Fairy
-  m_TagString: Untagged
+  m_TagString: Fairy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -7664605693119280686, guid: d877a0ce856820c40a6a5c4c6036d5cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -148,3 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   energyAmount: 5
+  moveSpeed: 2
+  targetChangeDistance: 0.5
+  fairyPopEffectPrefab: {fileID: 722245186287079990, guid: ee71c0394a0aae94798e65c12e724e09, type: 3}
+  popSound: {fileID: 8300000, guid: 188f99941d1a0c54e9083f4b4e91e03c, type: 3}

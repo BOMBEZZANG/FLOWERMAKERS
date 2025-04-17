@@ -1218,17 +1218,23 @@ MonoBehaviour:
   maxMagicDew: 100
   currentMagicDew: 0
   dewDecreaseRate: 1
+  lowDewThreshold: 30
   maxFairyEnergy: 50
   currentFairyEnergy: 0
   growthLevel: 0
   growthThreshold: 50
   growthScaleFactor: {x: 1.2, y: 1.2, z: 1.2}
+  normalSprite: {fileID: 906388131340123023, guid: 89a628fa7d295fe47ba0ee1b48b7506a, type: 3}
+  thirstySprite: {fileID: -2118128117571108155, guid: 5f101cdbfa48d0440981c995fe88329e, type: 3}
   magicDewSlider: {fileID: 548022616}
   fairyEnergySlider: {fileID: 571360725}
   growthLevelText: {fileID: 235737044}
   fairyPrefab: {fileID: 2015397582054274056, guid: 749cc105180e46747b32da6e77e04988, type: 3}
   spawnAreaMin: {fileID: 1242275522}
   spawnAreaMax: {fileID: 1095186592}
+  initialSpawnDelay: 1
+  fairySpawnInterval: 5
+  maxActiveFairies: 3
 --- !u!1 &809155301
 GameObject:
   m_ObjectHideFlags: 0
